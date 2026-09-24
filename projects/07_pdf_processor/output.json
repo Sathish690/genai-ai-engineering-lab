@@ -1,0 +1,20 @@
+{
+  "filename": "sample.pdf",
+  "page_count": 2,
+  "has_extractable_text": true,
+  "metadata": {
+    "/Title": "Project 07 Sample PDF",
+    "/Author": "GenAI AI Engineering Lab",
+    "/Subject": "PDF Processing Test Document"
+  },
+  "pages": [
+    {
+      "page_number": 1,
+      "text": "Sample PDF Document\nThis is a synthetic document for Project 07 PDF processing.\nPage 1 contains extractable text for testing."
+    },
+    {
+      "page_number": 2,
+      "text": "Project 07 Test Page\nThis second page verifies page-by-page extraction."
+    }
+  ]
+}
