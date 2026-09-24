@@ -1,0 +1,37 @@
+[
+  {
+    "id": "INC1001",
+    "title": "VM CPU utilization high",
+    "description": "Production VM CPU utilization exceeded the configured threshold.",
+    "status": "Open",
+    "priority": "High"
+  },
+  {
+    "id": "INC1002",
+    "title": "Application service unavailable",
+    "description": "Application service is not responding on the production server.",
+    "status": "Resolved",
+    "priority": "High"
+  },
+  {
+    "id": "INC1003",
+    "title": "Storage capacity warning",
+    "description": "Storage usage exceeded the warning threshold.",
+    "status": "Open",
+    "priority": "Medium"
+  },
+  {
+    "id": "INC1004",
+    "title": "Memory utilization high",
+    "description": "Server memory utilization is above the configured threshold.",
+    "status": "In Progress",
+    "priority": "High"
+  },
+  {
+    "id": "INC1005",
+    "title": "Backup job failed",
+    "description": "The nightly backup job failed and requires investigation.",
+    "status": "Open",
+    "priority": "Medium"
+  }
+]

@@ -1,0 +1,5 @@
+pypdf
+pytest
+reportlab
+pytesseract
+pymupdf

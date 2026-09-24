@@ -1,0 +1,21 @@
+{
+  "filename": "sample.png",
+  "width": 1200,
+  "height": 500,
+  "format": "PNG",
+  "size_bytes": 4319,
+  "ocr": {
+    "filename": "sample.png",
+    "text": "INVOICE 1001 TOTAL 26000",
+    "confidence_notes": "OCR output may contain recognition errors. Accuracy depends on image quality, resolution, layout, and text clarity.",
+    "metadata": {
+      "original_format": "PNG",
+      "original_width": 1200,
+      "original_height": 500
+    }
+  },
+  "classification": {
+    "document_type": "invoice",
+    "confidence_notes": "Classification uses simple keyword heuristics and should be treated as approximate."
+  }
+}

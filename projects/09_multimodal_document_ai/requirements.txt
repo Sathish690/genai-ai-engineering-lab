@@ -1,0 +1,5 @@
+openai
+pydantic
+pillow
+pytesseract
+pytest

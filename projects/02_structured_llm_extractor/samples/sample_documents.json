@@ -1,0 +1,12 @@
+[
+  {"input": "Invoice INV-100: Acme Ltd billed Priya Shah $125.50 on 2026-04-10.", "expected": {"document_type": "invoice", "customer_name": "Priya Shah", "date": "2026-04-10", "amount": 125.5, "entities": ["Acme Ltd", "Priya Shah"], "confidence_notes": []}},
+  {"input": "Receipt: Morgan paid 42.00 EUR to Green Grocer on 2026-05-01.", "expected": {"document_type": "receipt", "customer_name": "Morgan", "date": "2026-05-01", "amount": 42.0, "entities": ["Morgan", "Green Grocer"], "confidence_notes": []}},
+  {"input": "Hello Ava, your subscription renews on 2026-06-15.", "expected": {"document_type": "email", "customer_name": "Ava", "date": "2026-06-15", "amount": null, "entities": ["Ava"], "confidence_notes": []}},
+  {"input": "Quarterly update from Northwind Traders.", "expected": {"document_type": "report", "customer_name": null, "date": null, "amount": null, "entities": ["Northwind Traders"], "confidence_notes": ["No customer, date, or amount is explicitly stated."]}},
+  {"input": "Payment reminder for Lee: balance due is $80.00.", "expected": {"document_type": "payment reminder", "customer_name": "Lee", "date": null, "amount": 80.0, "entities": ["Lee"], "confidence_notes": ["No date is explicitly stated."]}},
+  {"input": "Service agreement between Bright Labs and Diego Ramos dated 2026-02-20.", "expected": {"document_type": "service agreement", "customer_name": "Diego Ramos", "date": "2026-02-20", "amount": null, "entities": ["Bright Labs", "Diego Ramos"], "confidence_notes": []}},
+  {"input": "Order #77 for Willow Cafe totals $19.99.", "expected": {"document_type": "order", "customer_name": "Willow Cafe", "date": null, "amount": 19.99, "entities": ["Willow Cafe"], "confidence_notes": ["No date is explicitly stated."]}},
+  {"input": "Meeting notes: Jordan discussed the Atlas project with Maya.", "expected": {"document_type": "meeting notes", "customer_name": null, "date": null, "amount": null, "entities": ["Jordan", "Atlas", "Maya"], "confidence_notes": ["No customer, date, or amount is explicitly stated."]}},
+  {"input": "Notice dated 2026-01-03 from City Library.", "expected": {"document_type": "notice", "customer_name": null, "date": "2026-01-03", "amount": null, "entities": ["City Library"], "confidence_notes": []}},
+  {"input": "A handwritten thank-you from Sam. No other details are readable.", "expected": {"document_type": "thank-you note", "customer_name": "Sam", "date": null, "amount": null, "entities": ["Sam"], "confidence_notes": ["No date or amount is explicitly stated."]}}
+]

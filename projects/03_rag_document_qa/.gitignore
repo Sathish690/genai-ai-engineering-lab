@@ -1,0 +1,6 @@
+.env
+.venv/
+.rag_store/
+__pycache__/
+*.py[cod]
+.pytest_cache/
